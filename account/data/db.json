@@ -1,0 +1,20 @@
+{
+  "account": [
+    {
+      "id": "jjilj_hwn",
+      "title": "吃饭",
+      "time": "2023-04-04",
+      "type": "-1",
+      "account": "200",
+      "remarks": "难吃"
+    },
+    {
+      "id": "K99lhNKRs",
+      "title": "工资",
+      "time": "2023-04-02",
+      "type": "1",
+      "account": "11111",
+      "remarks": "舒服了"
+    }
+  ]
+}
