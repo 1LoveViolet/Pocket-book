@@ -25,7 +25,8 @@ router.get("/login", (req, res) => {
 });
 //登录
 router.post("/login", (req, res) => {
-  let { username, password } = req.body;
+  let username = req.body.username;
+  let password = md5(req.body.password);
   UserModel.findOne({ $and: [{ username: username }, { password: password }] })
     .then((data) => {
       if (!data) {
